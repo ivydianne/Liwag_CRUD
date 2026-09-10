@@ -88,7 +88,7 @@ $config['date_default_timezone'] = 'Asia/Manila';
 | WARNING: You MUST set this value!
 |
 */
-$config['base_url'] 				= 'http://localhost/ivyCrud/public/';
+$config['base_url'] 				= getenv('APP_URL') ?: 'https://liwag-crud-2.onrender.com/';
 
 /*
 |--------------------------------------------------------------------------
